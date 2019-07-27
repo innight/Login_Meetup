@@ -19,7 +19,7 @@ document.getElementById("login-button").addEventListener("click", function(e){
     else
     {
         var x = document.getElementsByClassName("error")[0];
-        x.textContent="Introduza Outra vez os dados";
+        x.textContent="Introduza Outra vez os dados teste!!!";
         e.preventDefault();
     }
   });
